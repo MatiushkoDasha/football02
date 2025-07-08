@@ -21,7 +21,6 @@ a {
     list-style: none;
 }
 
-
 h1 {
     font-size: 24px;
     color: #39930d;
@@ -46,12 +45,20 @@ header {
     padding: 25px 0;
 }
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.logo  {
+    gap: 20px;
+}
 .logo p {
     font-size: 22px;
     color: #39930d;
 }
 
 .logo b {
+    display: block;
     font-size: 44px;
     color: #39930d;
 }
@@ -60,6 +67,7 @@ header {
     width: 102px;
     height: 100px;
 }
+
 .contacts a {
     font-size: 22px;
     color: #39930d;
@@ -67,6 +75,7 @@ header {
 }
 
 .contacts i {
+    margin-left: 100px;
     font-size: 14px;
     color: #5a5a5a;
 }
@@ -83,8 +92,8 @@ header {
     color: #343434;
 }
 .menu p {
-    max-width: 300px;
-    padding: 11px 19px ;
+    min-width: 300px;
+    padding: 11px  19px;
     background-color: #39930d;
     font-size: 18px;
     color: #ffffff;
