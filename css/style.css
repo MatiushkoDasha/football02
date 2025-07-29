@@ -51,6 +51,11 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.hover :hover {
+    color: #343434;
+}
+
 .logo  {
     gap: 20px;
 }
