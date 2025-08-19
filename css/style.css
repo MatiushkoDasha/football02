@@ -149,11 +149,11 @@ header {
 }
 
 @media screen  and (min-width: 461px){ 
-
-  html {
-        font-size: .9px;
-    }
     
+  html {
+        font-size: .8px;
+    }
+
     .contacts {
         padding: 0;
         gap: 10rem;
