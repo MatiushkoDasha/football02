@@ -106,9 +106,9 @@ header {
     flex-wrap: wrap-reverse;
 }
 
- .main_text {
-        max-width: 599rem;
-    }
+.main_text {
+    width: 100%; 
+}
 
 .main_text p {
     font-size: 14rem;
@@ -150,15 +150,15 @@ header {
 
 @media screen  and (min-width: 461px){ 
     
-  html {
+    html {
         font-size: .8px;
     }
-
+    
     .contacts {
         padding: 0;
         gap: 10rem;
     }
-
+    
     .contacts i {
         padding-left: 100rem;
     }
@@ -167,14 +167,18 @@ header {
     html {
         font-size: .9px;
     }
-
+    
     header {
         flex-wrap: nowrap;
     }
-
+    
     .main_conteiner {
         flex-wrap: nowrap;
     }
+    
+    .main_text {
+           max-width: 599rem;
+       }
 
     .menu {
         width: 300rem;
