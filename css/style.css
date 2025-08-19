@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 0.8px;
+}
+
 body {
     cursor: url(../img/cursor.cur),default;
     font-family: "Arial";
@@ -11,7 +15,7 @@ body {
 }
 
 main {
-    padding: 25px 0 29px;
+    padding: 25rem 0 29rem;
 }
 
 ul {
@@ -24,27 +28,28 @@ a {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
     font-weight: bold;
-    margin-bottom: 17px;
+    margin-bottom: 17rem;
 }
 
  i {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     font-style: italic;
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15rem;
     background-color: #fff;
 }
 
 header {
-    padding: 25px 0;
+    padding: 25rem 0;
+    flex-wrap: wrap;
 }
 
 .flex-between {
@@ -57,70 +62,125 @@ header {
 }
 
 .logo  {
-    gap: 20px;
+    gap: 20rem;
 }
 .logo p {
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
 }
 
 .logo b {
     display: block;
-    font-size: 44px;
+    font-size: 44rem;
     color: #39930d;
 }
 
 .logo img {
-    width: 102px;
-    height: 100px;
+    width: 102rem;
+    height: 100rem;
 }
 
 .contacts a {
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
     text-decoration: none;
 }
 
 .contacts i {
-    margin-left: 100px;
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
 }
 
 .img  img {
     width: 100%;
+    min-height: 200rem;
+    object-fit: cover;
+    object-position: 75%;
 }
 
+.main_conteiner {
+    flex-wrap: wrap-reverse;
+}
+
+ .main_text {
+        max-width: 599rem;
+    }
+
 .main_text p {
-    max-width: 599px;
-    font-size: 14px;
-    margin-bottom: 18px;
+    font-size: 14rem;
+    margin-bottom: 18rem;
     line-height: 1.5em;
     color: #343434;
 }
+
+.menu {
+    width: 100%;
+    min-width: 200rem;
+}
 .menu p {
-    min-width: 300px;
-    padding: 11px  19px;
+    max-width: 300rem;
+    padding: 11rem  19rem;
     background-color: #39930d;
-    font-size: 18px;
+    font-size: 18rem;
     color: #ffffff;
 }
 .menu ul {
-    padding: 20px;
+    padding: 20rem;
 }
 .menu a {
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 14rem;
     color: #39930d;
 }
 
 .footer {
-    margin: 0 -15px;
+    margin: 0 -15rem;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 14rem;
     background-color: #39930d;
-    padding: 14px 15px;
+    padding: 14rem 15rem;
 }
 
+@media screen  and (min-width: 768rem){
+    html {
+        font-size: .9px;
+    }
+
+    header {
+        flex-wrap: nowrap;
+    }
+
+    .main_conteiner {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen  and (min-width: 1024rem){
+    html {
+        font-size: 1px;
+    }
+
+    .main_text {
+        max-width: 599px;
+    }
+}
+
+@media screen  and (min-width: 1400rem){
+    html {
+        font-size: 1.1px;
+    }
+}
+
+@media screen  and (min-width: 1920rem){
+    html {
+        font-size: 1.5px;
+    }
+}
+
+@media screen  and (min-width: 2200rem){
+    html {
+        font-size: 1.7px;
+    }
+}
