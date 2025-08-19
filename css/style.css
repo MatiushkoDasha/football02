@@ -176,9 +176,12 @@ header {
         flex-wrap: nowrap;
     }
 
-    .menu p {
-         max-width: 300rem;
+    .menu {
+        width: 300rem;
+        gap: 10rem;
     }
+
+
 }
 
 @media screen  and (min-width: 1024px){
@@ -189,6 +192,7 @@ header {
     .main_text {
         max-width: 599px;
     }
+
 }
 
 @media screen  and (min-width: 1400px){
