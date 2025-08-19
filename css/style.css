@@ -80,6 +80,10 @@ header {
     height: 100rem;
 }
 
+.contacts {
+    padding-top: 25rem;
+}
+
 .contacts a {
     font-size: 22rem;
     color: #39930d;
@@ -115,10 +119,8 @@ header {
 
 .menu {
     width: 100%;
-    min-width: 200rem;
 }
 .menu p {
-    max-width: 300rem;
     padding: 11rem  19rem;
     background-color: #39930d;
     font-size: 18rem;
@@ -152,8 +154,19 @@ header {
         flex-wrap: nowrap;
     }
 
+    .contacts {
+        padding: 0;
+    }
+
+    .contacts i {
+        padding-left: 100rem;
+    }
     .main_conteiner {
         flex-wrap: nowrap;
+    }
+
+    .menu p {
+         max-width: 300rem;
     }
 }
 
