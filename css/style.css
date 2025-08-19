@@ -120,15 +120,18 @@ header {
 .menu {
     width: 100%;
 }
+
 .menu p {
     padding: 11rem  19rem;
     background-color: #39930d;
     font-size: 18rem;
     color: #ffffff;
 }
+
 .menu ul {
     padding: 20rem;
 }
+
 .menu a {
     line-height: 2.1em;
     text-decoration: underline;
@@ -145,6 +148,21 @@ header {
     padding: 14rem 15rem;
 }
 
+@media screen  and (min-width: 461px){ 
+
+  html {
+        font-size: .9px;
+    }
+    
+    .contacts {
+        padding: 0;
+        gap: 10rem;
+    }
+
+    .contacts i {
+        padding-left: 100rem;
+    }
+}
 @media screen  and (min-width: 768px){
     html {
         font-size: .9px;
@@ -154,13 +172,6 @@ header {
         flex-wrap: nowrap;
     }
 
-    .contacts {
-        padding: 0;
-    }
-
-    .contacts i {
-        padding-left: 100rem;
-    }
     .main_conteiner {
         flex-wrap: nowrap;
     }
